@@ -1,0 +1,97 @@
+.vacancies {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 96px 80px;
+    gap: 64px;
+}
+
+.vacancies__talents {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.vacancies__talents__container__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vacancies__talents__container__info h4 {
+    color: var(--font-color-contrast);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.vacancies__talents__container__info h2 {
+    color: var(--font-color-principal);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.vacancies__talents__container__info p {
+    color: var(--font-color-secondary);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.vacancies__opens {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    padding: 0 256px;
+    gap: 64px;
+}
+
+.vacancies__opens__container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.vacancies__opens__container h3 {
+    margin-bottom: 12px;
+    color: var(--font-color-principal);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.vacancies__opens__content {
+    display: grid;
+    grid-template-areas:
+        "job job job job job"
+        "type salary salary salary salary"
+    ;
+    padding: 25px;
+    gap: 32px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}
+
+.vacancies__opens__content .job {
+    color: var(--font-color-principal);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    grid-area: job;
+}
+
+.vacancies__opens__content p {
+    color: var(--font-color-secondary);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.vacancies__opens__content .type {
+    grid-area: type;
+}
+
+.vacancies__opens__content .salary {
+    grid-area: salary;
+}
